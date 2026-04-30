@@ -1,6 +1,5 @@
 ================================================================================
 EARTHQUAKE INSURANCE PREMIUM ANALYSIS — README
-Data Intensive Scalable Systems (H9DISS1) — NCI MSc Data Analytics 2025/26
 ================================================================================
 
 OVERVIEW
