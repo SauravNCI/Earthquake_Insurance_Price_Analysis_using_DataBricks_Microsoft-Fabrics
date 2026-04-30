@@ -63,11 +63,11 @@ Option C: Run steps individually:
 
 AZURE DEPLOYMENT NOTES
 ----------------------
-1. Create Azure Blob Storage container: 'earthquake-insurance-raw'
-2. Set env var: AZURE_STORAGE_CONN_STR=<your connection string>
-3. Create Azure Cosmos DB: database='earthquake_insurance'
-4. Set env var: COSMOS_KEY=<your key>, COSMOS_ENDPOINT=<your endpoint>
-5. Deploy 02_spark_processing.py as Azure Databricks notebook
+1. Create Azure Blob Storage container: 'earthquake-insurance-raw'/ LakeHouse in Fabrics
+2. Set env var: AZURE_STORAGE_CONN_STR=<your connection string>  / Can't Share this
+3. Create Azure Cosmos DB: database='earthquake_insurance'  / Use Connection String
+4. Set env var: COSMOS_KEY=<your key>, COSMOS_ENDPOINT=<your endpoint>  
+5. Deploy 02_spark_processing.py as Azure Databricks notebook  / Serverless Computer with Spark
    (swap pd.read_csv → spark.read.csv with wasbs:// path)
 
 DATA SOURCES
