@@ -1,0 +1,15 @@
+{
+  "total_fema_records": 69896,
+  "earthquake_declarations": 228,
+  "unique_eq_disasters": 36,
+  "states_with_eq_decl": 14,
+  "corr_sri_ia": 0.4957,
+  "corr_decl_ia": 0.1759,
+  "highest_sri_state": "CA",
+  "highest_ia_state": "WA",
+  "total_ia_activations": 69,
+  "pr_county_rows": 112,
+  "wa_ia_rate": 0.9333333333333332,
+  "peak_eq_year": 2020,
+  "peak_eq_county_rows": 114
+}
